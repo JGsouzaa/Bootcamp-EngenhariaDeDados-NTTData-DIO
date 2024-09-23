@@ -44,6 +44,14 @@ while True:
             print("Extrato de operação: ", extrato)
         else:
             print("O valor informado é inválido.")
-
+    elif selecao == "e":
+        print("\n================ EXTRATO ================")
+        print("Não foram realizadas movimentações." if not extrato else extrato)
+        print(f"\nSaldo: R$ {saldo:.2f}")
+        print("==========================================")
+    elif selecao == "q":
+        break
+    else:
+        print("Operação inválida, por favor selecione novamente a operação desejada.")
 
 
