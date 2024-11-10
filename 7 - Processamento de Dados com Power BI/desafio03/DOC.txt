@@ -1,0 +1,8 @@
+- Criado instancia de servidor no azure
+- Criado banco de dados azure_company em instancia mysql
+- Populado banco de dados azure_company
+- Configurado permissões de rede para poder acessar a instancia da minha maquina
+- Conectado ao azure via integração com Power BI (EXTRACT)
+- Importado tabelas do banco de dados da minha instancia em nuvem no Azure (LOAD)
+- Transformado base de dados, eliminado valores nulos, retirado colunas desnecessarias, mesclado tabelas afim de ter uma consulta fixa para relatório (TRANSFORM)
+- Confecção do relatório, visualização das horas trabalhadas por região, horas trabalhadas por funcionário, contagem de funcionários por local e media salarial por regiao
